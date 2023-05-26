@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding:10px;
+}
+body {
+    background: #141414;
+    height:100vh;
+}
+.container {
+    text-align: center;
+}
+h2 {
+    text-decoration: underline;
+   
+}
+h2, label {
+    color:white;
+    font-size: 22px;
+}
+#Price {
+    padding:14px 12px 12px 14px ;
+    background: white;
+    width: 120px;
+    color:black;
+}
+button {
+    background: #141414;
+    color:aliceblue;
+    font-size:18px;
+}

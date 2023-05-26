@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/style.css">
+    <title>Ice Cream </title>
+</head>
+<body>
+    <div class="container">
+    <h2>Calculating Total Price for Ice-cream </h2>
+      <div class="row">
+        <label> Number of Ice-cream/s </label>
+        <input type="number" min="1" id="numOfIce">
+      </div>
+
+      <div class="row">
+        <label> Cost of Ice-cream/s </label>
+        <input type="number" id="costOfIce" >
+      </div>
+
+      <div class="row">
+        <label> Total Price of Ice-cream/s </label>
+        <label  id="Price"></label>
+      </div>
+
+      <div class="row">
+         <button id="calc" onclick="iceCreamPr(document.getElementById('numOfIce').value , document.getElementById('costOfIce').value)">Calculate Price </button>
+      </div>
+
+      </div>
+    <script src="./assests/index.js"></script>
+</body>
+</html>
